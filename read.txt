@@ -1,0 +1,14 @@
+所需3个数据库是没处理过的加密数据库。
+
+
+本工具运行一次能得到3个所给数据库中的所有数据。
+
+本工具的使用步骤：
+1，先准备两组待对比的数据库。（2组 Apps.amf，iCloud.amf，iPhone 6S.cmf ）
+2，把一组数据库拷入本文件夹下。（Apps.amf，iCloud.amf，iPhone 6S.cmf 这3个数据库）
+3，在python3环境下，运行z_generate_data.py。table_data中生成所有表。是第一组的表。
+4，清空table_data.
+5，重复2~3，得到第二组表。
+
+
+用此方法，分别就可以得到两组云获取的所有数据。
